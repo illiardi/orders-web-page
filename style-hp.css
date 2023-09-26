@@ -1,0 +1,113 @@
+html {
+  font-family: "Poppins";
+}
+
+body {
+  background-color: rgba(148, 141, 141, 0.518);
+  margin: 8px;
+  height: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0px;
+}
+
+/* Hero Section */
+
+.hero_container {
+  padding-top: 20px;
+  padding-bottom: 104px;
+  background-color: #fff;
+  width: 1440px;
+  /* display: flex; */
+}
+
+.header_hero_page {
+}
+
+.hero_container .header_hero_page .title_hero_page {
+  display: flex;
+
+  /* margin-right: 750px; */
+}
+
+.header_hero_page .title_hero_page .title_head {
+  color: #131316;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 28px;
+  font-weight: 600;
+  line-height: 32px; /* 114.286% */
+  vertical-align: middle;
+  padding-right: 8px;
+  padding-left: 96px;
+  width: 104px;
+  height: 32px;
+}
+
+.header_hero_page .title_hero_page .head_line {
+  width: 16px;
+  height: 18px;
+  vertical-align: middle;
+  transform: rotate(6.301deg);
+  padding-bottom: 6px;
+}
+
+.header_hero_page .nav_in_the_page {
+}
+
+.header_hero_page .nav_in_the_page .link {
+  color: #131316;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 150%;
+  padding-top: 32px;
+  /* padding-right: 40px; */
+}
+
+.header_hero_page .nav_in_the_page .link:not(:last-child) {
+  padding-right: 40px;
+}
+
+.header_hero_page .nav_in_the_page .push_info {
+  /* display: inline-flex; */
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  /* gap: 10px; */
+  border-radius: 12px;
+  background: #f5f5f5;
+  border: none;
+}
+
+.header_hero_page .main_block .main_title {
+  color: #131316;
+  /* font-feature-settings: "clig" off, "liga" off; */
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 110%; /* 70.4px */
+  letter-spacing: -2px;
+  width: 824px;
+}
+
+.header_hero_page .main_block .description {
+  color: #131316;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 160%; /* 32px */
+  width: 611px;
+}
+
+/* Section 2 Row-Reverse */
+
+.section_second_container {
+  padding-bottom: 106px;
+  background-color: #fff;
+  width: 1440px;
+  display: flex;
+}
