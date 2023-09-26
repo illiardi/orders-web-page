@@ -1,0 +1,42 @@
+/* full table */
+.orders-table {
+  width: 937px;
+  border-collapse: collapse;
+}
+
+/* each row */
+.orders-table tbody tr {
+  border: 1px solid #e7e7ed;
+  border-radius: 12px;
+}
+
+/* https://developer.mozilla.org/ru/docs/Web/CSS/box-sizing 
+ calculate size of content according to parent size */
+.orders-table thead th,
+.orders-table tbody td {
+  box-sizing: border-box;
+}
+
+.orders-table thead th {
+  padding: 13px 16px;
+}
+
+.orders-table tbody td {
+  padding: 20px 16px;
+}
+
+.orders-table thead th:nth-child(1) {
+  width: 48px;
+}
+
+/* TABLE BODY CELLS */
+.orders-table tbody td:nth-child(2),
+.orders-table tbody td:nth-child(3) {
+  text-align: center;
+}
+
+/* example how to use last child and first child
+.orders-table tbody td:first-child,
+.orders-table tbody td:last-child {
+  text-align: center;
+} */

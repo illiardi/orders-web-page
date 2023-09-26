@@ -1,0 +1,28 @@
+fieldset {
+  border: 1px solid grey;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+legend {
+  background-color: none;
+  color: black;
+  padding: 3px 6px;
+}
+
+legend::after {
+  content: "*";
+  color: red;
+}
+
+.image_with_input .wrapper img {
+  width: 40px;
+  display: inline;
+  vertical-align: middle;
+}
+
+.image_with_input .wrapper input[type="text"] {
+  display: inline;
+  outline: none;
+  width: fit-content;
+}

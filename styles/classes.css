@@ -1,0 +1,51 @@
+.parent {
+  border: 2px solid black;
+  width: 400px;
+  height: 400px;
+}
+
+/* all child */
+.child {
+  width: 40px;
+  height: 40px;
+
+  border: 2px solid blue;
+}
+
+/* all child inside parent (does not depend on layer)*/
+.parent .child {
+  border: 2px solid green;
+}
+
+/* all child inside parent(on 1 layer)*/
+.parent > .child {
+  /* border: 2px solid red; */
+}
+
+/* second child inside parent */
+.parent .child:nth-child(2) {
+  /* border: 2px solid orange; */
+}
+
+/* on hover on parent  */
+.child:hover .parent {
+  /* border: 2px solid green; */
+}
+
+/* on hover on child */
+.parent .child:hover {
+  /* border: 2px solid salmon; */
+}
+
+/* second class */
+/* .child_error {
+  border: 8px solid violet;
+} */
+
+.parent .c1 .c4 {
+  border: 8px solid violet;
+}
+
+.c4.c5 {
+  border: 8px solid red;
+}
