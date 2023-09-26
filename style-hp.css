@@ -33,10 +33,16 @@ p {
 
 .hero_container .header_hero_page .title_hero_page {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1247px;
 
   /* margin-right: 750px; */
 }
 
+.hero_container .header_hero_page .title_hero_page .logotype_block {
+  display: flex;
+}
 .header_hero_page .title_hero_page .title_head {
   color: #131316;
   font-feature-settings: "clig" off, "liga" off;
@@ -59,6 +65,7 @@ p {
 }
 
 .header_hero_page .nav_in_the_page {
+  margin-right: 96px;
 }
 
 .header_hero_page .nav_in_the_page .link {
@@ -85,6 +92,13 @@ p {
   border: none;
 }
 
+.header_hero_page .main_block {
+  margin-top: 108px;
+  margin-left: 96px;
+  margin-right: 468px;
+  margin-bottom: 40px;
+}
+
 .header_hero_page .main_block .main_title {
   color: #131316;
   /* font-feature-settings: "clig" off, "liga" off; */
@@ -93,6 +107,8 @@ p {
   line-height: 110%; /* 70.4px */
   letter-spacing: -2px;
   width: 824px;
+  margin-bottom: 24px;
+  margin-right: 52px;
 }
 
 .header_hero_page .main_block .description {
@@ -101,6 +117,56 @@ p {
   font-weight: 400;
   line-height: 160%; /* 32px */
   width: 611px;
+  margin-right: 52px;
+}
+
+.hero_container .header_hero_page .previev_block {
+  width: 1440px;
+  background-color: #fff;
+}
+
+.hero_container .header_hero_page .previev_block .button_space {
+  margin-left: 96px;
+  margin-bottom: 80px;
+  margin-right: 242px;
+  margin-top: 40px;
+}
+
+.hero_container .header_hero_page .previev_block .button_space .get_start {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background-color: #4891ff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  border: none;
+}
+
+.hero_container .header_hero_page .previev_block .button_space .push_demo {
+  display: inline-flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 16px;
+  background-color: #f5f5f5;
+  color: #131316;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  border: solid;
+  background: url(assets/dot_&_line_icon.svg) no-repeat right;
+  background-position-y: calc(100% - 18px);
+  background-position-x: calc(100% - 156px);
+  padding-left: 60px;
+  padding-right: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 /* Section 2 Row-Reverse */
