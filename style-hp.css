@@ -35,7 +35,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  width: 1248px;
+  /* width: 1248px; */
 
   /* margin-right: 750px; */
 }
@@ -137,16 +137,18 @@ p {
 .hero_container .header_hero_page .previev_block {
   width: 1440px;
   background-color: #fff;
+  display: flex;
 }
 
-.hero_container .header_hero_page .previev_block .button_space {
+.hero_container .header_hero_page .button_space {
   margin-left: 96px;
   margin-bottom: 80px;
   margin-right: 242px;
   margin-top: 40px;
+  display: flex;
 }
 
-.hero_container .header_hero_page .previev_block .button_space .get_start {
+.hero_container .header_hero_page .button_space .get_start {
   /* display: inline-flex;
   justify-content: center;
   align-items: center; */
@@ -164,7 +166,7 @@ p {
   padding-top: 16px;
 }
 
-.hero_container .header_hero_page .previev_block .button_space .get_start:hover {
+.hero_container .header_hero_page .button_space .get_start:hover {
   cursor: pointer;
   color: #4891ff;
   background-color: #fff;
@@ -173,7 +175,7 @@ p {
   font-size: 20px;
 }
 
-.hero_container .header_hero_page .previev_block .button_space .push_demo {
+.hero_container .header_hero_page .button_space .push_demo {
   /* display: inline-flex;
   justify-content: center;
   align-items: center; */
@@ -193,7 +195,7 @@ p {
   padding-bottom: 16px;
 }
 
-.hero_container .header_hero_page .previev_block .button_space .push_demo::before {
+.hero_container .header_hero_page .button_space .push_demo::before {
   content: "";
   background: url(assets/dot_&_line_icon.svg) no-repeat 50%;
   width: 18px;
@@ -203,7 +205,7 @@ p {
   margin-right: 10px;
 }
 
-.hero_container .header_hero_page .previev_block .button_space .push_demo:hover {
+.hero_container .header_hero_page .button_space .push_demo:hover {
   cursor: pointer;
   font-size: 20px;
   font-weight: 600;
@@ -557,14 +559,14 @@ p {
 } */
 
 .hero_container .header_hero_page .previev_block .team_table .block_title {
+  display: block;
 }
 
-.hero_container
-  .header_hero_page
-  .previev_block
-  .team_table
-  .block_diagrama
-  .line_in_table_vertical {
+.hero_container .header_hero_page .previev_block .price_block .sale_diagram {
+  flex-direction: row;
+  justify-content: space-around;
+  margin-right: 96px;
+  margin-left: 24px;
 }
 
 /* Section 2 Row-Reverse */
