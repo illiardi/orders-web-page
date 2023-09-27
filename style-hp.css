@@ -293,6 +293,9 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  width: fit-content;
+  margin-left: -100px;
+  margin-right: 773px;
 }
 
 .hero_container
@@ -301,7 +304,154 @@ p {
   .team_table
   .block_diagrama
   .line_in_table_vertical {
+  margin-left: 100px;
 }
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .block_diagrama
+  .line_in_table_vertical:nth-child(2) {
+}
+
+.hero_container .header_hero_page .previev_block .team_table .item_block_grey {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  width: 213px;
+  height: 48px;
+  margin-top: 44px;
+  margin-right: 72px;
+  margin-bottom: 11px;
+  margin-left: -1082px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_grey
+  .text_in_item_block {
+  color: #131316;
+  font-size: 10px;
+  font-weight: 500;
+  width: 128px;
+  text-align: left;
+  padding-right: 38px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 44px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_grey
+  .text_in_item_block::before {
+  content: "";
+  background: url(assets/mini_photo_man_1.svg) no-repeat 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.hero_container .header_hero_page .previev_block .team_table .item_block_yellow {
+  background-color: #f6fee0;
+  border-radius: 8px;
+  width: 213px;
+  height: 48px;
+  margin-top: 102px;
+  margin-left: -178px;
+  margin-right: 72px;
+  margin-bottom: 11px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_yellow
+  .text_in_item_block {
+  color: #131316;
+  font-size: 10px;
+  font-weight: 500;
+  width: 128px;
+  text-align: center;
+  padding-right: 38px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 44px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_yellow
+  .text_in_item_block::before {
+  content: "";
+  background: url(assets/mini_photo_man_1.svg) no-repeat 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.hero_container .header_hero_page .previev_block .team_table .item_block_lightblue {
+  background-color: #daf4fe;
+  border-radius: 8px;
+  width: 213px;
+  height: 48px;
+  margin-top: 162px;
+  margin-right: 72px;
+  margin-bottom: 11px;
+  margin-left: -282px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_lightblue
+  .text_in_item_block {
+  color: #131316;
+  font-size: 10px;
+  font-weight: 500;
+  width: 128px;
+  text-align: center;
+  padding-right: 38px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-left: 44px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_lightblue
+  .text_in_item_block::before {
+  content: "";
+  background: url(assets/mini_photo_man_1.svg) no-repeat 50%;
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+/* Shit */
+
 /* display: flex;
   flex-direction: row;
   justify-content: space-around;
