@@ -712,3 +712,183 @@ p {
 .essential_tools .up_main_block .present_diagram {
   display: flex;
 }
+
+.business_communications {
+  display: flex;
+  flex-direction: column;
+}
+
+.business_communications .middle_main_block {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.business_communications .middle_main_block .dashboard_ss {
+  width: 514px;
+  height: 400px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-left: 86px;
+  margin-right: 30px;
+  margin-top: 65px;
+}
+
+.business_communications .middle_main_block .dashboard_ss .title_dashboard {
+  color: #131316;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 120%; /* 43.2px */
+  letter-spacing: -1px;
+  width: 506px;
+  margin-bottom: 20px;
+}
+
+.business_communications .middle_main_block .dashboard_ss .description_dashboard {
+  color: #494a4d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  width: 506px;
+  margin-bottom: 42px;
+}
+
+.business_communications .middle_main_block .dashboard_ss .description_dashboard_second {
+  color: #494a4d;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 160%; /* 25.6px */
+  width: 506px;
+  margin-bottom: 33px;
+}
+
+.business_communications .middle_main_block .dashboard_ss .caption_middle {
+  color: #131316;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+  /* width: 400px; */
+  flex-shrink: 0;
+  margin-bottom: 16px;
+}
+
+.business_communications .middle_main_block .dashboard_ss .caption_middle::after {
+  content: "";
+  background: url(assets/items_for_dashboard/arrow_left.png) no-repeat 50%;
+  width: 18px;
+  height: 22px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  margin-left: 8px;
+}
+
+.business_communications .middle_main_block .dashboard_ss .caption_second {
+  color: #131316;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 120%; /* 28.8px */
+  width: 400px;
+  flex-shrink: 0;
+  margin-bottom: 20px;
+}
+
+.business_communications .middle_main_block .dashboard_ss .line_dashboard_active {
+  margin-bottom: 20px;
+}
+
+.business_communications .middle_main_block .dashboard_ss .line_dashboard_deactive {
+  margin-bottom: 20px;
+}
+
+.business_communications .middle_main_block .call_section {
+  display: flex;
+  width: 728px;
+  height: 486px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  background-color: #fafafa;
+  margin-left: 85px;
+  position: relative;
+}
+
+.business_communications .middle_main_block .call_section .first_back_section {
+  width: 406px;
+  height: 317px;
+  flex-shrink: 0;
+  background-color: #fff;
+  border-radius: 16px;
+  position: absolute;
+  top: 99px;
+  left: 215px;
+}
+
+.business_communications
+  .middle_main_block
+  .call_section
+  .first_back_section
+  .second_back_section {
+  width: 320px;
+  height: 200px;
+  background-color: #f6fee0;
+  position: absolute;
+  top: 25px;
+  left: 40px;
+}
+
+.business_communications
+  .middle_main_block
+  .call_section
+  .first_back_section
+  .photo_in_call_section {
+  width: 340px;
+  height: 274px;
+  flex-shrink: 0;
+  /* background-color: #f6fee0; */
+  position: absolute;
+  top: -73px;
+  left: -30px;
+}
+
+.business_communications
+  .middle_main_block
+  .call_section
+  .first_back_section
+  .icon_in_call_section {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 145px;
+  left: 248px;
+}
+
+.business_communications
+  .middle_main_block
+  .call_section
+  .first_back_section
+  .down_in_call_section {
+  width: 192px;
+  height: 40px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 240px;
+  left: 45px;
+}
+
+.business_communications
+  .middle_main_block
+  .call_section
+  .first_back_section
+  .block_in_call_section {
+  width: 246px;
+  height: 204px;
+  flex-shrink: 0;
+  position: absolute;
+  top: -52px;
+  left: -164px;
+}
