@@ -64,6 +64,15 @@ p {
   padding-bottom: 6px;
 }
 
+.header_hero_page .button_nav_mob {
+  width: 40px;
+  height: 40px;
+  margin-top: 24px;
+  margin-right: 16px;
+  margin-left: 319px;
+  display: none;
+}
+
 .header_hero_page .nav_in_the_page {
   margin-right: 96px;
 }
