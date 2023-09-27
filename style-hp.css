@@ -679,6 +679,10 @@ p {
   margin-bottom: 16px;
 }
 
+.essential_tools .up_main_block .dashboard_ss .caption:hover {
+  cursor: pointer;
+}
+
 .essential_tools .up_main_block .dashboard_ss .caption::after {
   content: "";
   background: url(assets/items_for_dashboard/arrow_left.png) no-repeat 50%;
@@ -724,18 +728,18 @@ p {
   align-items: center;
 }
 
-.business_communications .middle_main_block .dashboard_ss {
+.business_communications .middle_main_block .business_ss {
   width: 514px;
   height: 400px;
   text-align: left;
   display: flex;
   flex-direction: column;
-  margin-left: 86px;
-  margin-right: 30px;
-  margin-top: 65px;
+  margin-left: 24px;
+  margin-right: 90px;
+  margin-top: -85px;
 }
 
-.business_communications .middle_main_block .dashboard_ss .title_dashboard {
+.business_communications .middle_main_block .business_ss .title_dashboard {
   color: #131316;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 36px;
@@ -746,7 +750,7 @@ p {
   margin-bottom: 20px;
 }
 
-.business_communications .middle_main_block .dashboard_ss .description_dashboard {
+.business_communications .middle_main_block .business_ss .description_dashboard {
   color: #494a4d;
   font-size: 16px;
   font-weight: 400;
@@ -755,7 +759,7 @@ p {
   margin-bottom: 42px;
 }
 
-.business_communications .middle_main_block .dashboard_ss .description_dashboard_second {
+.business_communications .middle_main_block .business_ss .description_dashboard_second {
   color: #494a4d;
   font-size: 16px;
   font-weight: 400;
@@ -764,7 +768,7 @@ p {
   margin-bottom: 33px;
 }
 
-.business_communications .middle_main_block .dashboard_ss .caption_middle {
+.business_communications .middle_main_block .business_ss .caption_middle {
   color: #131316;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 24px;
@@ -775,7 +779,7 @@ p {
   margin-bottom: 16px;
 }
 
-.business_communications .middle_main_block .dashboard_ss .caption_middle::after {
+.business_communications .middle_main_block .business_ss .caption_middle::after {
   content: "";
   background: url(assets/items_for_dashboard/arrow_left.png) no-repeat 50%;
   width: 18px;
@@ -786,7 +790,11 @@ p {
   margin-left: 8px;
 }
 
-.business_communications .middle_main_block .dashboard_ss .caption_second {
+.business_communications .middle_main_block .business_ss .caption_middle:hover {
+  cursor: pointer;
+}
+
+.business_communications .middle_main_block .business_ss .caption_second {
   color: #131316;
   font-feature-settings: "clig" off, "liga" off;
   font-size: 24px;
@@ -797,11 +805,11 @@ p {
   margin-bottom: 20px;
 }
 
-.business_communications .middle_main_block .dashboard_ss .line_dashboard_active {
+.business_communications .middle_main_block .business_ss .line_dashboard_active {
   margin-bottom: 20px;
 }
 
-.business_communications .middle_main_block .dashboard_ss .line_dashboard_deactive {
+.business_communications .middle_main_block .business_ss .line_dashboard_deactive {
   margin-bottom: 20px;
 }
 
@@ -865,6 +873,14 @@ p {
   position: absolute;
   top: 145px;
   left: 248px;
+}
+
+.business_communications
+  .middle_main_block
+  .call_section
+  .first_back_section
+  .icon_in_call_section:hover {
+  cursor: pointer;
 }
 
 .business_communications
