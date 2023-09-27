@@ -318,12 +318,15 @@ p {
 .hero_container .header_hero_page .previev_block .team_table .item_block_grey {
   background-color: #f5f5f5;
   border-radius: 8px;
-  width: 213px;
+  /* width: 213px; */
   height: 48px;
   margin-top: 44px;
   margin-right: 72px;
   margin-bottom: 11px;
   margin-left: -1082px;
+  display: flex;
+  width: fit-content;
+  align-items: middle;
 }
 
 .hero_container
@@ -335,15 +338,15 @@ p {
   color: #131316;
   font-size: 10px;
   font-weight: 500;
-  width: 128px;
+  width: 90px;
   text-align: left;
-  padding-right: 38px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 44px;
+  padding-right: 78px;
+  padding-top: 20px;
+  padding-bottom: 12px;
+  padding-left: 5px;
 }
 
-.hero_container
+/* .hero_container
   .header_hero_page
   .previev_block
   .team_table
@@ -358,7 +361,7 @@ p {
   margin-right: 10px;
   border-radius: 50%;
   background-color: white;
-}
+} */
 
 .hero_container .header_hero_page .previev_block .team_table .item_block_yellow {
   background-color: #f6fee0;
@@ -366,9 +369,10 @@ p {
   width: 213px;
   height: 48px;
   margin-top: 102px;
-  margin-left: -178px;
+  margin-left: -186px;
   margin-right: 72px;
   margin-bottom: 11px;
+  display: flex;
 }
 
 .hero_container
@@ -381,14 +385,30 @@ p {
   font-size: 10px;
   font-weight: 500;
   width: 128px;
-  text-align: center;
+  text-align: left;
   padding-right: 38px;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 44px;
+  padding-top: 20px;
+  padding-bottom: 14px;
+  padding-left: 5px;
 }
 
 .hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_grey
+  .photo_in_text_man_lpz {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 13px;
+  margin-left: 20px;
+  /* margin-right: 10px; */
+  margin-bottom: 12px;
+}
+
+/* .hero_container
   .header_hero_page
   .previev_block
   .team_table
@@ -403,6 +423,84 @@ p {
   margin-right: 10px;
   border-radius: 50%;
   background-color: white;
+} */
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_yellow
+  .photo_in_text_man_tom {
+  width: 22px;
+  height: 22px;
+  background-color: #daf4fe;
+  border-radius: 50%;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-bottom: 12px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_yellow
+  .photo_in_table_man_lpz {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 13px;
+  margin-left: -15px;
+
+  margin-bottom: 12px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_lightblue
+  .photo_in_text_man_tom {
+  width: 22px;
+  height: 22px;
+  background-color: #daf4fe;
+  border-radius: 50%;
+  margin-top: 13px;
+  margin-left: -5px;
+  margin-right: 10px;
+  margin-bottom: 12px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_lightblue
+  .photo_in_table_man_tam {
+  width: 22px;
+  height: 22px;
+  background-color: #f6fee0;
+  border-radius: 50%;
+  margin-top: 13px;
+  margin-left: 20px;
+  margin-bottom: 12px;
+}
+
+.hero_container
+  .header_hero_page
+  .previev_block
+  .team_table
+  .item_block_lightblue
+  .photo_in_table_man_lpz {
+  width: 22px;
+  height: 22px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 13px;
+  margin-left: -15px;
+  margin-bottom: 12px;
 }
 
 .hero_container .header_hero_page .previev_block .team_table .item_block_lightblue {
@@ -413,7 +511,8 @@ p {
   margin-top: 162px;
   margin-right: 72px;
   margin-bottom: 11px;
-  margin-left: -282px;
+  margin-left: -284px;
+  display: flex;
 }
 
 .hero_container
@@ -426,14 +525,14 @@ p {
   font-size: 10px;
   font-weight: 500;
   width: 128px;
-  text-align: center;
+  text-align: left;
   padding-right: 38px;
-  padding-top: 16px;
+  padding-top: 20px;
   padding-bottom: 16px;
-  padding-left: 44px;
+  padding-left: 5px;
 }
 
-.hero_container
+/* .hero_container
   .header_hero_page
   .previev_block
   .team_table
@@ -448,7 +547,7 @@ p {
   margin-right: 10px;
   border-radius: 50%;
   background-color: white;
-}
+} */
 
 /* Shit */
 
