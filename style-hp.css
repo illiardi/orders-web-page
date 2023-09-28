@@ -29,8 +29,8 @@ p {
 }
 
 .scroll_all {
-  width: 62px;
-  height: 62px;
+  width: 32px;
+  height: 32px;
   position: fixed;
   top: 575px;
   left: 1290px;
