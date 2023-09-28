@@ -28,6 +28,14 @@ p {
   /* display: flex; */
 }
 
+.scroll_all {
+  width: 62px;
+  height: 62px;
+  position: fixed;
+  top: 575px;
+  left: 1290px;
+}
+
 .header_hero_page {
 }
 
