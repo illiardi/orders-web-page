@@ -1000,3 +1000,99 @@ p {
   padding-right: 95px;
   padding-bottom: 88px;
 }
+
+.video_container {
+  padding-top: 20px;
+  background-color: #131316;
+  width: 1440px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video_container .head_video_section {
+  width: 767px;
+  height: 118px;
+  flex-shrink: 0;
+  text-align: center;
+  margin-left: 334px;
+  margin-right: 338px;
+  margin-top: 96px;
+  margin-bottom: 44px;
+  display: block;
+}
+
+.video_container .head_video_section .title_video_section {
+  color: #fff;
+  text-align: center;
+  font-feature-settings: "clig" off, "liga" off;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 120%; /* 57.6px */
+  letter-spacing: -1px;
+}
+
+.video_container .video_section {
+  width: 835px;
+  height: 486px;
+  flex-shrink: 0;
+  fill: rgba(72, 145, 255, 0.15);
+  border-radius: 10px;
+  background-color: #131316;
+  margin-top: 44px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.video_container .video_section .start_screen {
+  /* position: relative; */
+}
+
+.video_container .video_section .icon_get_video {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 220px;
+  left: 374px;
+}
+
+.video_container .video_section .icon_get_video:hover {
+  cursor: pointer;
+}
+
+.video_container .button_space {
+  margin-left: px;
+  margin-bottom: 120px;
+  margin-right: px;
+  margin-top: 80px;
+  display: flex;
+}
+
+.video_container .button_space .get_start {
+  display: flex;
+  /* display: inline-flex;
+  justify-content: center;
+  align-items: center; */
+  border-radius: 16px;
+  background-color: #4891ff;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 150%; /* 27px */
+  border: none;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+}
+
+.video_container .button_space .get_start:hover {
+  cursor: pointer;
+  color: #4891ff;
+  background-color: #fff;
+  border: 1px solid #4891ff;
+  font-weight: 600;
+  font-size: 20px;
+}
