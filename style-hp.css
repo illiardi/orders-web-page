@@ -2343,7 +2343,7 @@ p {
   .reviews_container {
     padding-top: 20px;
     background-color: #131316;
-    width: 1440px;
+    width: 422px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -2354,22 +2354,22 @@ p {
   }
 
   .reviews_container .head_review_section {
-    width: 836px;
+    width: 343px;
     height: 176px;
     text-align: left;
     margin-top: 105px;
   }
 
   .reviews_container .head_review_section .title_review_section {
-    width: 760px;
+    width: 333px;
     height: 176px;
-    margin-left: 85px;
+    margin-left: 40px;
     margin-bottom: 65px;
     margin-right: 518px;
     text-align: left;
     color: #fff;
     font-feature-settings: "clig" off, "liga" off;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 120%; /* 57.6px */
     letter-spacing: -1px;
@@ -2377,70 +2377,74 @@ p {
   }
 
   .reviews_container .block_review_section {
-    margin-left: 85px;
+    margin-left: 40px;
     margin-top: 65px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+    width: 343px;
   }
 
   .reviews_container .block_review_section .review_first {
-    width: 404px;
-    height: 308px;
+    width: 338px;
+    height: 254px;
     flex-shrink: 0;
     border-radius: 16px;
     background-color: #fafafa;
-    margin-right: 24px;
+    padding-right: 12px;
+    margin-bottom: 32px;
   }
 
   .reviews_container .block_review_section .review_second {
-    width: 406px;
-    height: 452px;
+    width: 352px;
+    height: 333px;
     flex-shrink: 0;
     border-radius: 16px;
     background-color: #fafafa;
     margin-right: 24px;
+    margin-bottom: 32px;
   }
 
   .reviews_container .block_review_section .review_third {
-    width: 405px;
-    height: 360px;
+    width: 352px;
+    height: 288px;
     flex-shrink: 0;
     border-radius: 16px;
     background-color: #fafafa;
     margin-right: 24px;
+    margin-bottom: 32px;
   }
 
   .reviews_container .block_review_section .review_last {
-    width: 405px;
-    height: 299px;
+    width: 352px;
+    height: 253px;;
     flex-shrink: 0;
     flex-shrink: 0;
     border-radius: 16px;
     background-color: #fafafa;
     margin-right: 24px;
+    margin-bottom: 32px;
   }
 
   .reviews_container .block_review_section .content_review {
-    width: 320px;
+    width: 311px !important;
     color: #131316;
     font-feature-settings: "clig" off, "liga" off;
-    font-size: 20px;
+    font-size: 16px;
     font-style: italic;
     font-weight: 400;
     line-height: 150%; /* 30px */
     padding-top: 41px;
-    margin-bottom: 48px;
-    padding-right: 46px;
-    padding-left: 40px;
+    margin-bottom: 20px;
+    padding-left: 24px;
   }
 
   .reviews_container .block_review_section .author_name {
     color: #131316;
     font-feature-settings: "clig" off, "liga" off;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 150%; /* 27px */
-    padding-left: 40px;
+    padding-left: 24px;
   }
 
   .reviews_container .block_review_section .position_author {
@@ -2458,11 +2462,11 @@ p {
     margin-bottom: 80px;
     margin-right: 242px;
     margin-top: 40px;
-    display: flex;
+    display: none;
   }
 
   .reviews_container .button_space .scroll_side {
-    display: flex;
+    display: none;
     /* display: inline-flex;
   justify-content: center;
   align-items: center; */
