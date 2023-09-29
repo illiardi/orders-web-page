@@ -1320,8 +1320,8 @@ p {
     width: 40px;
     height: 40px;
     margin-top: 1px;
-    margin-right: 26px;
-    margin-left: 203px;
+    margin-right: 46px;
+    margin-left: 185px;
     display: flex;
   }
 
@@ -1929,10 +1929,12 @@ p {
 
   .essential_tools .up_main_block .dashboard_ss .line_dashboard_active {
     margin-bottom: 20px;
+    margin-left: -30px;
   }
 
   .essential_tools .up_main_block .dashboard_ss .line_dashboard_deactive {
     margin-bottom: 20px;
+    margin-left: -30px;
   }
 
   .essential_tools .up_main_block .present_diagram {
@@ -1949,35 +1951,36 @@ p {
 
   .business_communications {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
   }
 
   .business_communications .middle_main_block {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
+
   }
 
   .business_communications .middle_main_block .business_ss {
-    width: 514px;
-    height: 400px;
+    width: 343px;
+    height: 100px;
     text-align: left;
     display: flex;
     flex-direction: column;
-    margin-left: 24px;
-    margin-right: 90px;
-    margin-top: -85px;
+    margin-left: -300px;
+    margin-right: 2px;
+    margin-top: -330px;
   }
 
   .business_communications .middle_main_block .business_ss .title_dashboard {
     color: #131316;
     font-feature-settings: "clig" off, "liga" off;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 120%; /* 43.2px */
     letter-spacing: -1px;
-    width: 506px;
-    margin-bottom: 20px;
+    width: 343px;
+    margin-bottom: 8px;
   }
 
   .business_communications .middle_main_block .business_ss .description_dashboard {
@@ -1985,8 +1988,8 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
-    width: 506px;
-    margin-bottom: 42px;
+    width: 323px;
+    margin-bottom: 20px;
   }
 
   .business_communications .middle_main_block .business_ss .description_dashboard_second {
@@ -2001,22 +2004,23 @@ p {
   .business_communications .middle_main_block .business_ss .caption_middle {
     color: #131316;
     font-feature-settings: "clig" off, "liga" off;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 120%; /* 28.8px */
     flex-shrink: 0;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
 
   .business_communications .middle_main_block .business_ss .caption_middle::after {
     content: "";
     background: url(assets/items_for_dashboard/arrow_left.png) no-repeat 50%;
-    width: 18px;
-    height: 22px;
+    width: 12px;
+    height: 12px;
     display: inline-block;
     vertical-align: middle;
     margin-right: 10px;
-    margin-left: 8px;
+    margin-left: 10px;
+    margin-bottom: 2px;
   }
 
   .business_communications .middle_main_block .business_ss .caption_middle:hover {
@@ -2044,24 +2048,27 @@ p {
 
   .business_communications .middle_main_block .call_section {
     display: flex;
-    width: 728px;
-    height: 486px;
+    width: 323px;
+    height: 277px;
     flex-shrink: 0;
     border-radius: 4px;
     background-color: #fafafa;
-    margin-left: 85px;
+    margin-top: 354px;
+    margin-left: 38px;
     position: relative;
+     display: flex;
   }
 
   .business_communications .middle_main_block .call_section .first_back_section {
-    width: 406px;
-    height: 317px;
+    width: 260px;
+    height: 202px;
     flex-shrink: 0;
     background-color: #fff;
     border-radius: 16px;
     position: absolute;
-    top: 99px;
-    left: 215px;
+    top: 50px;
+    left: 15px;
+   
   }
 
   .business_communications
@@ -2069,8 +2076,8 @@ p {
     .call_section
     .first_back_section
     .second_back_section {
-    width: 320px;
-    height: 200px;
+    width: 194px;
+    height: 132px;
     background-color: #f6fee0;
     position: absolute;
     top: 25px;
@@ -2082,12 +2089,11 @@ p {
     .call_section
     .first_back_section
     .photo_in_call_section {
-    width: 340px;
-    height: 274px;
-    flex-shrink: 0;
+    width: 195.717px;
+    height: 157.855px;
     position: absolute;
-    top: -73px;
-    left: -30px;
+    top: -25px;
+    left: 12px;
   }
 
   .business_communications
@@ -2095,12 +2101,12 @@ p {
     .call_section
     .first_back_section
     .icon_in_call_section {
-    width: 40px;
-    height: 40px;
+    width: 14px;
+    height: 14px;
     flex-shrink: 0;
     position: absolute;
-    top: 145px;
-    left: 248px;
+    top: 112px;
+    left: 178px;
   }
 
   .business_communications
@@ -2116,11 +2122,10 @@ p {
     .call_section
     .first_back_section
     .down_in_call_section {
-    width: 192px;
-    height: 40px;
-    flex-shrink: 0;
+    width: 111.25px;
+    height: 23.3px;
     position: absolute;
-    top: 240px;
+    top: 160px;
     left: 45px;
   }
 
@@ -2129,12 +2134,11 @@ p {
     .call_section
     .first_back_section
     .block_in_call_section {
-    width: 246px;
-    height: 204px;
-    flex-shrink: 0;
+    width: 140px;
+    height: 116px;
     position: absolute;
-    top: -52px;
-    left: -164px;
+    top: -16px;
+    left: -54px;
   }
 
   .business_communications {
@@ -2149,25 +2153,24 @@ p {
   }
 
   .business_communications .middle_main_block .comunice_tools_ss {
-    width: 514px;
-    height: 210px;
+    width: 343px;
     text-align: left;
     display: flex;
     flex-direction: column;
-    margin-left: 90px;
-    margin-right: 24px;
-    margin-top: -330px;
+    margin-left: 40px;
+    margin-right: 16px;
+    margin-top: -250px;
   }
 
   .business_communications .middle_main_block .comunice_tools_ss .title_dashboard {
     color: #131316;
     font-feature-settings: "clig" off, "liga" off;
-    font-size: 36px;
+    font-size: 24px;
     font-weight: 500;
     line-height: 120%; /* 43.2px */
     letter-spacing: -1px;
-    width: 506px;
-    margin-bottom: 20px;
+    width: 343px;
+    margin-bottom: 8px;
   }
 
   .business_communications .middle_main_block .comunice_tools_ss .description_dashboard {
@@ -2175,18 +2178,18 @@ p {
     font-size: 16px;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
-    width: 506px;
-    margin-bottom: 42px;
+    width: 343px;
+    margin-bottom: 20px;
   }
 
   .business_communications .middle_main_block .comunice_tools_ss .caption_middle {
     color: #131316;
     font-feature-settings: "clig" off, "liga" off;
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 120%; /* 28.8px */
     flex-shrink: 0;
-    margin-bottom: 16px;
+    margin-bottom: 24px;
   }
 
   .business_communications .middle_main_block .comunice_tools_ss .caption_middle::after {
@@ -2198,6 +2201,7 @@ p {
     vertical-align: middle;
     margin-right: 10px;
     margin-left: 8px;
+    margin-bottom: 2px;
   }
 
   .business_communications .middle_main_block .comunice_tools_ss .caption_middle:hover {
@@ -2205,46 +2209,58 @@ p {
   }
 
   .business_communications .middle_main_block .messages_section {
-    width: 728px;
-    height: 486px;
+    width: 220px;
+    height: 110px;
     flex-shrink: 0;
     background-color: #fafafa;
-    padding-top: 60px;
+    padding-top: 10px;
     margin-right: 90px;
+    margin-left: -350px;
+    margin-top: 370px;
+  }
+
+  .business_communications .middle_main_block .messages_section .sale_diagram{
+    width: 343px;
+    height: 188px;
+    margin-top: -180px;
+    background-color:#fafafa;
   }
 
   .business_communications .middle_main_block .todolist_section {
-    width: 728px;
-    height: 486px;
+    width: 343px;
+    height: 200px;
     flex-shrink: 0;
     background-color: #fafafa;
-    margin-left: 85px;
+    margin-left: 1px;
   }
 
   .todolist_project {
-    padding-top: 51px;
-    padding-left: 122px;
-    padding-right: 95px;
-    padding-bottom: 88px;
+    width: 320px;
+    height: 200px;
+    padding-top: 130px;
+    padding-left: 40px;
+    padding-right: 62px;
+    padding-bottom: 64px;
+    background-color: #fff;
   }
 
   .video_container {
     padding-top: 20px;
     background-color: #131316;
-    width: 1440px;
+    width: 422px;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
   .video_container .head_video_section {
-    width: 767px;
-    height: 118px;
+    width: 340px;
+    height: 116px;
     flex-shrink: 0;
     text-align: center;
     margin-left: 334px;
     margin-right: 338px;
-    margin-top: 96px;
+    margin-top: 184px;
     margin-bottom: 44px;
     display: block;
   }
@@ -2253,15 +2269,15 @@ p {
     color: #fff;
     text-align: center;
     font-feature-settings: "clig" off, "liga" off;
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 500;
     line-height: 120%; /* 57.6px */
     letter-spacing: -1px;
   }
 
   .video_container .video_section {
-    width: 835px;
-    height: 486px;
+    width: 343px;
+    height: 198px;
     flex-shrink: 0;
     fill: rgba(72, 145, 255, 0.15);
     border-radius: 10px;
@@ -2273,16 +2289,17 @@ p {
   }
 
   .video_container .video_section .start_screen {
-    /* position: relative; */
+     width: 343px;
+    height: 198px;
   }
 
   .video_container .video_section .icon_get_video {
-    width: 80px;
-    height: 80px;
+    width: 40px;
+    height: 40px;
     flex-shrink: 0;
     position: absolute;
-    top: 220px;
-    left: 374px;
+    top: 78px;
+    left: 148px;
   }
 
   .video_container .video_section .icon_get_video:hover {
@@ -2295,6 +2312,7 @@ p {
     margin-right: px;
     margin-top: 80px;
     display: flex;
+    width: 343px;
   }
 
   .video_container .button_space .get_start {
@@ -2306,10 +2324,11 @@ p {
     font-weight: 500;
     line-height: 150%; /* 27px */
     border: none;
-    padding-left: 32px;
+    padding-left: 122px;
     padding-right: 32px;
     padding-bottom: 16px;
     padding-top: 16px;
+    width: 343px;
   }
 
   .video_container .button_space .get_start:hover {
