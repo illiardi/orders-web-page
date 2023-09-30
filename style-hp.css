@@ -608,6 +608,7 @@ p {
 
 .essential_tools .up_main_block {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
   align-items: center;
 }
@@ -633,6 +634,10 @@ p {
   line-height: 160%; /* 25.6px */
   padding-top: 24px;
   margin-left: 110px;
+
+  flex-grow: 1;
+  flex-basis: 400px;
+  min-width: 0;
 }
 
 .essential_tools .up_main_block .dashboard_ss {
@@ -722,6 +727,10 @@ p {
 
 .essential_tools .up_main_block .present_diagram {
   display: flex;
+  flex-basis: 400px;
+  min-width: 0;
+
+  flex-grow: 1;
 }
 
 .business_communications {
@@ -1141,7 +1150,7 @@ p {
 .reviews_container .block_review_section {
   margin-left: 85px;
   margin-top: 65px;
-  width: 1440px;
+  width: 1355px;
   display: flex;
   flex-direction: row;
 
@@ -2380,6 +2389,8 @@ p {
     display: flex;
     flex-direction: column;
     width: 343px;
+    overflow: none;
+}
   }
 
   .reviews_container .block_review_section .review_first {
