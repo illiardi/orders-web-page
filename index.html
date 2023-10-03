@@ -21,6 +21,8 @@
 
     <link rel="stylesheet" href="style-hp.css" />
 
+    <link rel="stylesheet" href="price.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,10 +49,14 @@
               alt="Item pade - Head Blue Line" />
           </div>
 
-          <img
+          <!-- <img
             class="button_nav_mob"
             src="assets/nav_button_for_mobver/button_of_navigation_for_mob_version.png"
-            alt="Button of Navigation for all page in landing" />
+            alt="Button of Navigation for all page in landing" /> -->
+
+          <button class="button_nav_mob">
+            <a class="link" href="https://www.instagram.com" target="_blank">.</a>
+          </button>
 
           <nav class="nav_in_the_page">
             <a
@@ -74,7 +80,9 @@
               Blog
             </a>
 
-            <button class="push_info" type="submit">Log In</button>
+            <button class="push_info" type="submit">
+              <a class="link" href="https://www.instagram.com" target="_blank">Log In</a>
+            </button>
           </nav>
         </div>
         <div class="main_block">
@@ -340,15 +348,16 @@
           See how it works and get started in less than 2 minutes
         </h3>
       </div>
+
       <div class="video_section">
         <img
           class="start_screen"
           src="assets/items_video_section/video_start_screen.png"
           alt="Start Screen Video" />
-        <img
-          class="icon_get_video"
-          src="assets/items_video_section/icon_button_video_start.svg"
-          alt="Icon Get Start Video" />
+
+        <button class="play_button">
+          <a class="link_play" href="https://www.youtube.com/watch?v=6g7p3YXcHL4">.</a>
+        </button>
       </div>
 
       <div class="button_space">
@@ -364,15 +373,19 @@
           like yours.
         </h3>
       </div>
+
       <div class="block_review_section">
         <div class="review_first">
           <p class="content_review">
             “Our business has seen a significant increase in productivity since we started
             using the Growth app.”
           </p>
+
           <h4 class="author_name">Katherine Smith</h4>
+
           <h6 class="position_author">Capodopera</h6>
         </div>
+
         <div class="review_second">
           <p class="content_review">
             “As a small business owner, it's important to have a tool that can help me
@@ -380,24 +393,32 @@
             me to manage my contacts, schedule appointments, and track progress all in one
             place..”
           </p>
+
           <h4 class="author_name">Jonathan Lee</h4>
+
           <h6 class="position_author">Red Bolt</h6>
         </div>
+
         <div class="review_third">
           <p class="content_review">
             “The dashboards and reporting feature has provided valuable insights into our
             performance and helped us make data-driven decisions. It's a game changer for
             us.”
           </p>
+
           <h4 class="author_name">David Wilson</h4>
+
           <h6 class="position_author">Slide</h6>
         </div>
+
         <div class="review_last">
           <p class="content_review">
             “Our business has seen a significant increase in productivity since we started
             using the Growth app.”
           </p>
+
           <h4 class="author_name">Katherine Smith</h4>
+
           <h6 class="position_author">Capodopera</h6>
         </div>
       </div>
@@ -406,5 +427,118 @@
         <button class="scroll_side" type="submit">Scroll side</button>
       </div>
     </section>
+
+    <!-- Price Section -->
+
+    <section class="price-container">
+      <div class="price-container__head">
+        <h3 class="price-container__title">Pricing</h3>
+
+        <p class="price-container__description">
+          Start free and scale while you grow. No hidden fees. Unlimited users for free.
+        </p>
+      </div>
+      <div class="price-container__bwblock">
+        <div class="price-container__block_white">
+          <h5 class="price-container__title-wb">Simple</h5>
+          <p class="price-container__description-wb">
+            Keep track of your contacts, gain valuable insights, analyse live data and
+            performance metrics.
+          </p>
+          <h6 class="price-container__title-wbe">Free</h6>
+
+          <img
+            class="price-container__image"
+            src="assets/line_for_price_white.png"
+            alt="Grey Line" />
+
+          <ul class="price-container__list">
+            <li class="price-container__row">Real-time monitoring</li>
+            <li class="price-container__row">Track key performance indicators</li>
+            <li class="price-container__row">Schedule appointments</li>
+            <li class="price-container__row">
+              Organize, delegate and keep track of tasks
+            </li>
+          </ul>
+          <button class="price-container__button">Get started</button>
+        </div>
+        <div class="price-container__block_black">
+          <h5 class="price-container__title-bb">Premium</h5>
+          <p class="price-container__description-bb">
+            Keep track of your contacts, gain valuable insights, analyse live data and
+            performance metrics.
+          </p>
+          <h6 class="price-container__title-bbe">$49</h6>
+          <p class="price-container__description-bb">
+            Everything from the free plan plus:
+          </p>
+
+          <img
+            class="price-container__image"
+            src="assets/line_for_price_black.png"
+            alt="Grey Line" />
+
+          <ul class="price-container__list">
+            <li class="price-container__row-black">Data-driven decisions</li>
+            <li class="price-container__row-black">Data visualisation</li>
+            <li class="price-container__row-black">Schedule appointments</li>
+            <li class="price-container__row-black">
+              Store and organise contact information
+            </li>
+            <li class="price-container__row-black">
+              Teal-time communication tools for messaging and video conferencing
+            </li>
+          </ul>
+
+          <button class="price-container__button">Get started</button>
+        </div>
+      </div>
+      <hr />
+      <span class="price-container__foot">
+        All prices are in USD and charged per month with applicable taxes added at
+        checkout.
+      </span>
+      <hr />
+      <hr />
+      <hr />
+    </section>
+
+    <footer class="foooter-block">
+      <section class="foooter-block__area">
+        <header class="footer-block__logotype"></header>
+        <div class="footer-block_input-wrapp">
+          <input type="email" name="Email" id="" value="" placeholder="Your Email" />
+          <button class="">Subscribe</button>
+        </div>
+        <nav class="footer-block__about-us">
+          <div>
+            <h6><b>Company</b></h6>
+            <ul>
+              <li>About</li>
+              <li>Our Process</li>
+              <li>Join our team</li>
+            </ul>
+          </div>
+          <div>
+            <h6><b>Resources</b></h6>
+            <ul>
+              <li>News</li>
+              <li>Research</li>
+              <li>Recent Projects</li>
+            </ul>
+          </div>
+          <div>
+            <h6><b>Contact</b></h6>
+            <p>hello@growthapp.com</p>
+          </div>
+        </nav>
+
+        <div class="footer-block__linkx">
+          <h6><b>in</b></h6>
+        </div>
+
+        <span class="footer-block__footer">© 2023 Growth. All rights reserved</span>
+      </section>
+    </footer>
   </body>
 </html>
