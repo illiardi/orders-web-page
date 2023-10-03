@@ -23,6 +23,8 @@
 
     <link rel="stylesheet" href="price.css" />
 
+    <link rel="stylesheet" href="footer.css" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -503,38 +505,67 @@
       <hr />
     </section>
 
-    <footer class="foooter-block">
-      <section class="foooter-block__area">
-        <header class="footer-block__logotype"></header>
-        <div class="footer-block_input-wrapp">
-          <input type="email" name="Email" id="" value="" placeholder="Your Email" />
-          <button class="">Subscribe</button>
+    <footer class="footer-block">
+      <section class="footer-block__area">
+        <header class="footer-block__logotype">Growth</header>
+        <div class="footer-block__main-area">
+          <div class="footer-block__input-wrapp">
+            <h4 class="footer-block__input_title">Subscribe to newsletter</h4>
+            <p class="footer-block__input_description">
+              Subscribe now to receive tips on how to take your business to the next
+              level.
+            </p>
+            <!-- <label for="email">Enter your e-mail</label> -->
+            <div class="footer-block__input-wrapper">
+              <input
+                class="footer-block__input-element"
+                type="email"
+                name="Email"
+                id=""
+                value=""
+                required
+                placeholder="Your Email" />
+              <!-- <button class="footer-block__input_"> -->
+              <input class="footer-block__input_button" type="submit" value="Subscribe" />
+              <!-- </button> -->
+            </div>
+          </div>
+          <nav class="footer-block__about-us">
+            <div class="footer-block__about-us_header">
+              <h6 class="footer-block__about-us_title"><b>Company</b></h6>
+              <ul class="footer-block__about-us_header">
+                <a class="footer-block__about-us_achor" href="#">About</a>
+                <a class="footer-block__about-us_achor" href="#">Our Process</a>
+                <a class="footer-block__about-us_achor" href="#">Join our team</a>
+              </ul>
+            </div>
+            <div class="footer-block__about-us_header">
+              <h6 class="footer-block__about-us_title"><b>Resources</b></h6>
+              <ul class="footer-block__about-us_header">
+                <a class="footer-block__about-us_achor" href="#">News</a>
+                <a class="footer-block__about-us_achor" href="#">Research</a>
+                <a class="footer-block__about-us_achor" href="#">Recent Projects</a>
+              </ul>
+            </div>
+            <div class="footer-block__about-us_header">
+              <h6 class="footer-block__about-us_title" href="#">Contact</h6>
+              <p class="footer-block__about-us_achor">hello@growthapp.com</p>
+            </div>
+          </nav>
         </div>
-        <nav class="footer-block__about-us">
-          <div>
-            <h6><b>Company</b></h6>
-            <ul>
-              <li>About</li>
-              <li>Our Process</li>
-              <li>Join our team</li>
-            </ul>
-          </div>
-          <div>
-            <h6><b>Resources</b></h6>
-            <ul>
-              <li>News</li>
-              <li>Research</li>
-              <li>Recent Projects</li>
-            </ul>
-          </div>
-          <div>
-            <h6><b>Contact</b></h6>
-            <p>hello@growthapp.com</p>
-          </div>
-        </nav>
 
         <div class="footer-block__linkx">
-          <h6><b>in</b></h6>
+          <img
+            class="footer-block__image-in"
+            src="assets/Linkedin_footer.png"
+            alt="Linkedin" />
+
+          <a href="https://twitter.com/x">
+            <img
+              class="footer-block__icon"
+              src="assets/Icon_social_network_x.png"
+              alt="icon_twitter_x" />
+          </a>
         </div>
 
         <span class="footer-block__footer">© 2023 Growth. All rights reserved</span>
