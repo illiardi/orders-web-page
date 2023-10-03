@@ -76,6 +76,7 @@ p {
   margin-right: 16px;
   margin-left: 319px;
   display: none;
+
   transition: 0.5s ease-in-out;
 }
 
@@ -94,6 +95,10 @@ p {
   line-height: 150%;
   padding-top: 32px;
   /* padding-right: 40px; */
+}
+
+.header_hero_page .nav_in_the_page .link:hover{
+  color:gray;
 }
 
 .header_hero_page .nav_in_the_page .link:not(:last-child) {
@@ -1061,18 +1066,42 @@ p {
   position: relative;
 }
 
-.video_container .video_section .icon_get_video {
+.video_container .video_section .play_button {
+  color: #131313;
+   width: 86px;
+  height: 86px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 220px;
+  left: 368px;
+  border-radius: 50%;
+  background-image: url(assets/items_video_section/icon_button_video_start.svg);
+  transition: 0.5s ease-in-out;
+}
+
+ .video_container .video_section .play_button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.video_container .video_section .play_button .link_play{
+  color: black;
+}
+
+
+/* .video_container .video_section .icon_get_video {
   width: 80px;
   height: 80px;
   flex-shrink: 0;
   position: absolute;
   top: 220px;
   left: 374px;
-}
+} */
 
-.video_container .video_section .icon_get_video:hover {
+/* .video_container .video_section .icon_get_video:hover {
   cursor: pointer;
-}
+} */
+
 
 .video_container .button_space {
   margin-left: px;
@@ -1274,6 +1303,7 @@ p {
   font-size: 20px;
 }
 
+
 /* Media Query Mobile 425px */
 
 @media (max-width: 1000px) {
@@ -1325,16 +1355,22 @@ p {
   }
 
   .header_hero_page .button_nav_mob {
-    width: 40px;
+    width: 45px;
     height: 40px;
     margin-top: 1px;
     margin-right: 46px;
     margin-left: 185px;
+    background-image: url(assets/nav_button_for_mobver/button_of_navigation_for_mob_version.png);
+     background-size: cover;
     display: flex;
-  }
+  transition: 0.5s ease-in-out;
+  border: none;
+  border-radius: 18%;
+}
 
   .header_hero_page .button_nav_mob:hover {
     cursor: pointer;
+    opacity: 0.6;
   }
 
   .header_hero_page .nav_in_the_page {
@@ -1445,17 +1481,18 @@ p {
     line-height: 150%; /* 27px */
     border: none;
     width: 279px;
-    /* margin-right: 16px; */
-  }
+      transition: 0.5s ease-in-out;
+}
 
-  .hero_container .header_hero_page .button_space .get_start:hover {
-    cursor: pointer;
-    color: #4891ff;
-    background-color: #fff;
-    border: 1px solid #4891ff;
-    font-weight: 600;
-    font-size: 18px;
-  }
+.video_container .button_space .get_start:hover {
+  cursor: pointer;
+  color: #4891ff;
+  background-color: #fff;
+  border: 1px solid #4891ff;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0.6;
+}
 
   .hero_container .header_hero_page .button_space .push_demo {
     display: flex;
@@ -2300,7 +2337,31 @@ p {
     height: 198px;
   }
 
-  .video_container .video_section .icon_get_video {
+  .video_container .video_section .play_button {
+   width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  position: absolute;
+   top: 78px;
+   left: 148px;
+  border-radius: 50%;
+  background-image: url(assets/items_video_section/icon_button_video_start.svg);
+  background-size: cover;
+  transition: 0.5s ease-in-out;
+}
+
+ .video_container .video_section .play_button:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.video_container .video_section .play_button .link_play{
+  color: black;
+  position: absolute;
+  top: 1px;
+}
+
+  /* .video_container .video_section .icon_get_video {
     width: 40px;
     height: 40px;
     flex-shrink: 0;
@@ -2311,7 +2372,7 @@ p {
 
   .video_container .video_section .icon_get_video:hover {
     cursor: pointer;
-  }
+  } */
 
   .video_container .button_space {
     margin-left: px;
@@ -2335,17 +2396,18 @@ p {
     padding-right: 32px;
     padding-bottom: 16px;
     padding-top: 16px;
-    width: 343px;
-  }
+     transition: 0.5s ease-in-out;
+}
 
-  .video_container .button_space .get_start:hover {
-    cursor: pointer;
-    color: #4891ff;
-    background-color: #fff;
-    border: 1px solid #4891ff;
-    font-weight: 600;
-    font-size: 20px;
-  }
+.video_container .button_space .get_start:hover {
+  cursor: pointer;
+  color: #4891ff;
+  background-color: #fff;
+  border: 1px solid #4891ff;
+  font-weight: 600;
+  font-size: 20px;
+  opacity: 0.6;
+}
 
   .reviews_container {
     padding-top: 20px;
@@ -2463,7 +2525,7 @@ p {
     font-weight: 400;
     line-height: 150%; /* 24px */
     padding-top: 4px;
-    padding-left: 40px;
+    padding-left: 24px !important;
   }
 
   .reviews_container .button_space {
@@ -2512,4 +2574,4 @@ p {
     font-weight: 600;
     font-size: 20px;
   }
-}
+
