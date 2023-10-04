@@ -232,13 +232,13 @@
 
 .price-container__description-bb {
   color: #e5e7eb;
-  font-family: Poppins;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 160%; /* 25.6px */
   margin-left: 56px;
   text-align: left;
+  width: 288px;
+  margin-left: 56px;
 }
 
 .price-container__row-black {

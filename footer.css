@@ -77,6 +77,7 @@
 }
 
 .footer-block__input-element:focus {
+  border: 1px solid #4891ff;
   border-color: #4891ff;
 }
 
@@ -106,18 +107,22 @@
   font-weight: 500;
   line-height: 24px;
   border: none;
+  transition: 0.5s ease-in-out;
 }
 
 .footer-block__input_button:hover {
   color: #4891ff;
   background-color: #fff;
   cursor: pointer;
+  border: 1px solid black;
+  opacity: 0.6;
 }
 
 .footer-block__input:hover {
   color: #4891ff;
   background-color: #fff;
   cursor: pointer;
+  opacity: 0.6;
 }
 
 .footer-block__input {
@@ -175,6 +180,25 @@
   height: 24px;
   flex-shrink: 0;
   margin-left: 16px;
+
+  transition: 2s ease-in-out;
+  opacity: 0.8;
+  animation: button_footer_twitt_anima 2s ease-out infinite;
+}
+/* KeyGrames this ^ */
+
+@keyframes button_footer_twitt_anima {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(100deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
 }
 
 .footer-block__icon:hover {
