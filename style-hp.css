@@ -1,5 +1,6 @@
 html {
   font-family: "Poppins";
+  padding-left: 100px;
 }
 
 body {
@@ -1087,7 +1088,7 @@ p {
   align-items: center;
   justify-content: center;
 
-    animation: puls_button 2s ease-out 5;
+    animation: puls_button 2s ease-out infinite;
 }
 /* KeyGrames this ^ */
  @-webkit-keyframes puls_button {

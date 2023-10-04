@@ -278,3 +278,286 @@
 }
 
 /* Media Quary Price&Footer Block */
+
+@media (max-width: 1000px) {
+  .price-container {
+    padding-top: 104px;
+    padding-bottom: 106px;
+    background-color: #fff;
+    width: 422px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .price-container__head {
+    width: 343px;
+    height: 38px;
+    margin-left: 24px;
+    margin-right: 12px;
+    margin-bottom: 64px;
+  }
+
+  .price-container__title {
+    color: #131316;
+    text-align: center;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38.4px;
+    width: 343px;
+    margin-bottom: 24px;
+  }
+
+  .price-container__description {
+    color: #494a4d;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    width: 300px;
+    height: 52px;
+    margin-left: 32px;
+  }
+
+  .price-container__bwblock {
+    margin-top: 64px;
+    margin-bottom: 58px;
+    width: 343px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    margin-left: 32px;
+  }
+
+  .price-container__block_white {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    border-radius: 16px;
+    background-color: #fafafa;
+    margin-left: 38px;
+    margin-bottom: 24px;
+    height: 650px;
+  }
+
+  .price-container__title-wb {
+    color: #131316;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    letter-spacing: -0.36px;
+    text-align: left;
+    margin-top: 56px;
+    margin-left: 24px;
+  }
+
+  .price-container__title-wbe {
+    color: #131316;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 43.2px;
+    letter-spacing: -0.36px;
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 16px;
+  }
+
+  .price-container__title-wbe::after {
+    content: "* No credit card required ";
+    color: #131316;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 16.8px */
+    letter-spacing: -0.14px;
+    width: 22px;
+    height: 22px;
+    vertical-align: middle;
+    margin-left: 8px;
+  }
+
+  .price-container__description-wb {
+    color: #494a4d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    text-align: left;
+    margin-left: 24px;
+    margin-right: 56px;
+  }
+
+  .price-container__image {
+    margin-right: 56px;
+    margin-left: 56px;
+    margin-top: 29px;
+    margin-bottom: 32px;
+  }
+
+  .price-container__button {
+    display: flex;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 32px;
+    padding-right: 32px;
+    margin-bottom: 19px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 16px;
+    background-color: #4891ff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 150%; /* 27px */
+    border: none;
+    width: 279px;
+    margin-top: 32px;
+    margin-bottom: 40px;
+    margin-left: 24px;
+    margin-right: 24px;
+    transition: 0.5s ease-in-out;
+  }
+
+  .price-container__button:hover {
+    cursor: pointer;
+    color: #4891ff;
+    background-color: #fff;
+    border: 1px solid #4891ff;
+    font-weight: 600;
+    font-size: 20px;
+    opacity: 0.6;
+  }
+
+  .price-container__list {
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    column-gap: 12px;
+  }
+
+  .price-container__row {
+    text-align: left;
+    color: #131316;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-bottom: 12px;
+    margin-left: 24px !important;
+  }
+
+  .price-container__row::before {
+    content: "";
+    background: url(assets/icon_v.png) no-repeat 50%;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: white;
+  }
+
+  .price-container__block_black {
+    display: flex;
+    flex-direction: column;
+    width: 343px;
+    border-radius: 16px;
+    background-color: #131316;
+    margin-left: 30px;
+    margin-bottom: 24px;
+    margin-right: 16px;
+  }
+
+  .price-container__title-bb {
+    color: #fff;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 43.2px;
+    letter-spacing: -0.36px;
+    text-align: left;
+    margin-top: 56px;
+    margin-left: 24px;
+    width: 127px;
+    height: 34px;
+  }
+
+  .price-container__title-bbe {
+    color: #fff;
+    font-feature-settings: "clig" off, "liga" off;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 120%; /* 43.2px */
+    letter-spacing: -0.36px;
+    text-align: left;
+    margin-left: 24px;
+    margin-top: 32px;
+  }
+
+  .price-container__title-bbe::after {
+    content: "/month";
+    color: #fff;
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+    letter-spacing: -0.2px;
+  }
+
+  .price-container__description-bb {
+    color: #e5e7eb;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-left: 56px;
+    text-align: left;
+    width: 295px;
+    margin-left: 24px;
+  }
+
+  .price-container__row-black {
+    text-align: left;
+    color: #fafafa;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 25.6px */
+    margin-bottom: 12px;
+    margin-left: 24px;
+    width: 262px;
+  }
+
+  .price-container__row-black::before {
+    content: "";
+    background: url(assets/icon_v_black.png) no-repeat 50%;
+    width: 22px;
+    height: 22px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px;
+    border-radius: 50%;
+    background-color: #131316;
+  }
+
+  .price-container__foot {
+    margin-top: 46px;
+    margin-left: 68px;
+    color: #131316;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25.6px;
+    width: 293px;
+    height: 66px;
+  }
+}
